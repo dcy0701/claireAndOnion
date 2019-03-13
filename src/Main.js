@@ -17,7 +17,7 @@ class Main extends Component{
             },1000
         )
         var audio = document.getElementById("audio");
-        setTimeout(()=>audio.play(),2500)
+        setTimeout(()=>audio.play(), 0)
     }
     print = ()=>{
         $.fn.autotype = function() {
